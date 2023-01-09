@@ -11,6 +11,14 @@ public class Main {
         System.out.println("он не достиг совершеннолетия, нужно немного подождать");}
         //task2
         System.out.println("ЗАДАЧА №2");
+        int temperature = 4;
+        System.out.println("На улице "+temperature+ " градусов");
+        if (temperature <5){
+            System.out.println("На улице холодно, нужно надеть шапку");}
+        else {
+            System.out.println("Сегодня тепло, можно идти без шапки");}
+        //task3
+        System.out.println("ЗАДАЧА №3");
 
 
     }
