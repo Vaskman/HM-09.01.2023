@@ -2,7 +2,8 @@ public class Main {
     public static void main(String[] args) {
         task1();
         task2();
-        task3();}
+        task3();
+        task4();}
         //"Home Work 09.01.2023");
         public static void task1 () {
             System.out.println("Задача 1");
@@ -44,9 +45,27 @@ public class Main {
     }
     public static void task3 (){
         System.out.println("Задача 5");
+        int age = 14;
+        System.out.println("Если возраст ребенка равен "+age+" то ему ");
+        if (age <5){
+            System.out.println(" нельзя кататься на аттракционе");}
+        if (age >=5 && age <14){
+            System.out.println("можно кататься на аттракционе в сопровождении");}
+        if (age >=14){
+            System.out.println("можно кататься на аттракционе без сопровождения взрослого");}
+    }
+    public static void task4 (){
+        System.out.println("Задача 6");
 
     }
+
 }
+
+
+
+
+
+
 
 
 
