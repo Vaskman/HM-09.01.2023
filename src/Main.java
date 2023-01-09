@@ -19,6 +19,15 @@ public class Main {
             System.out.println("Сегодня тепло, можно идти без шапки");}
         //task3
         System.out.println("ЗАДАЧА №3");
+        int speed =55;
+        System.out.println("«Если скорость " +speed+ " то ");
+        if (speed>60){
+            System.out.println("придется заплатить штраф");}
+        else {
+            System.out.println("можно ездить спокойно");}
+        //task4
+        System.out.println("ЗАДАЧА №4");
+
 
 
     }
